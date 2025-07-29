@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POS Malaysia</title>
+  <link rel="stylesheet" href="style/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<a href="contactus.html" class="chat-button" title="Chat with us">
+  <img src="images/chat.png" alt="Chat Icon" />
+</a>
+
+<!-- 顶部栏 -->
+<div class="topbar">
+  <img src="images/pos.logo.png" alt="POS Logo" />
+  <div class="account-switch">
+    <button class="active">PERSONAL</button>
+    <button>BUSINESS</button>
+  </div>
+</div>
+
+<!-- 主导航栏 -->
+<nav class="main-navbar">
+  <div class="nav-left">
+    <a href="index.html">Home</a>
+    <a href="Ship now.html">Ship</a>
+    <a href="stamp.html">Stamp</a>
+    <a href="enterprise.html">Enterprise</a>
+    <a href="contactus.html">Contact</a>
+  </div>
+  <div class="nav-right">
+    <a href="#" class="login-btn">Login</a>
+  </div>
+</nav>
+
+<!-- Hero 区域 -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Track Your Shipment</h1>
+    <p>Find Service Point</p>
+    <form class="track-form">
+      <input type="text" placeholder="Enter tracking number">
+      <button type="submit">Track</button>
+    </form>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero.png" alt="Hero Image">
+  </div>
+</section>
+
+
+<!-- 功能卡片区 -->
+<section class="card-section">
+  <div class="card">
+    <img src="images/ship.png" alt="Ship Icon" />
+    <h3>Ship Now</h3>
+    <p>Quickly ship your parcels with ease.</p>
+    <button onclick="location.href='shipnow.html'">Start Shipping</button>
+  </div>
+
+  <div class="card">
+    <img src="images/quote.png" alt="Quote Icon" />
+    <h3>Get a Quote</h3>
+    <p>Calculate your delivery rates instantly.</p>
+    <button>Get Estimate</button>
+  </div>
+
+  <div class="card">
+    <img src="images/business.png" alt="Business Icon" />
+    <h3>Request a Business Account</h3>
+    <p>Unlock bulk shipping, billing, and more business services.</p>
+    <button>Apply Now</button>
+  </div>
+</section>
+
+<!-- 企业物流介绍 -->
+<section class="enterprise-section" id="logistics">
+  <div class="enterprise-container reverse">
+    <div class="enterprise-text" data-aos="fade-right">
+      <h4 class="sub-title">Enterprise Logistics</h4>
+      <h2>Document and Parcel Shipping</h2>
+      <p>Fast, safe and cost effective courier delivery service for both domestic and international parcels.</p>
+      <button>Ship now</button>
+    </div>
+    <div class="enterprise-image" data-aos="fade-left">
+      <img src="images/van.jpg" alt="Van" />
+    </div>
+  </div>
+</section>
+
+
+<section class="enterprise-section">
+  <div class="enterprise-container reverse">
+    <div class="enterprise-text" data-aos="fade-right">
+      <h4 class="sub-title">International Ship</h4>
+      <h2>Your quickest way to send parcels across the world.</h2>
+      <p>Choose from our express services, prepaid packaging, and more.</p>
+      <button>Explore Pos Shipping</button>
+    </div>
+    <div class="enterprise-image" data-aos="fade-left">
+      <img src="images/international.png" alt="International Shipping" />
+    </div>
+  </div>
+</section>
+
+<!-- 第四页开始：Stamp -->
+<section class="enterprise-section">
+  <div class="enterprise-container">
+    <div class="enterprise-text" data-aos="fade-right">
+      <h4 class="sub-title">Stamp</h4>
+      <h2>Fossil Stamp Collection</h2>
+      <p>Pos Malaysia Launches Fossil Stamp Collection Celebrating Malaysia's Prehistoric Heritage</p>
+      <button>Learn More</button>
+    </div>
+    <div class="enterprise-image" data-aos="fade-left">
+      <img src="images/stamp.png" alt="Stamp Collection" />
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 联系我们区块 -->
+<section class="contact-section">
+  <div class="contact-container">
+    <div class="contact-text">
+      <h2><em>Have a question?</em></h2>
+      <p>Get in touch with us today</p>
+      <button>Contact us</button>
+    </div>
+    <div class="contact-image">
+      <img src="images/person.png" alt="Customer Service" />
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer-section">
+  <div class="footer-grid">
+    <div class="footer-column">
+      <img src="images/pos.logo.svg" alt="POS Logo" class="footer-logo" />
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us On</h4>
+      <div class="social-icons">
+        <img src="images/facebook.png" alt="Facebook" />
+        <img src="images/twitter.png" alt="Twitter" />
+        <img src="images/instagram.png" alt="Instagram" />
+        <img src="images/youtube.png" alt="YouTube" />
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Track and Trace</a></li>
+        <li><a href="#">Send Parcel</a></li>
+        <li><a href="#">Find Post Office</a></li>
+        <li><a href="#">Postal Rates</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Download Our App</h4>
+      <div class="app-buttons">
+        <img src="images/appstore.png" alt="App Store" />
+        <img src="images/playstore.png" alt="Google Play" />
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
